@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "XYNavigationController"
-  spec.version      = "0.0.2"
+  spec.version      = "0.1.0"
   spec.summary      = "一个关于 导航栏 隐藏、透明 及 多层级跳转 多层级返回的 分类."
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-       一个关于 导航栏 隐藏、透明 及 多层级跳转 多层级返回的 分类.
+       UINavigationController 的分类 能够便捷实用 能够使导航栏透明、隐藏、显示 自由切换.
                          DESC
 
   spec.homepage     = "https://github.com/Wcaulpl/XYNavigationController"
