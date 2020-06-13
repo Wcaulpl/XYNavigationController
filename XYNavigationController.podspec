@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "XYNavigationController"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "一个关于 导航栏 隐藏、透明 及 多层级跳转 多层级返回的 分类."
 
   # This description is used to generate tags and improve search results.
