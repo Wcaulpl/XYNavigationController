@@ -119,7 +119,7 @@ typedef void(^XYViewControllerWillAppearInjectBlock)(UIViewController *viewContr
                 if (leftBtn.tag == 1) {
                     [leftBtn setImage:[UIImage imageNamed:viewController.xy_prefersNavigationBarTransparent?whiteImageIcon:backImageIcon] forState:UIControlStateNormal];
                 }
-                [viewController.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:viewController.xy_prefersNavigationBarTransparent?UIColor.whiteColor:HEX(0x333333, 1),NSFontAttributeName: [UIFont fontWithName:@"PingFangSC-Semibold" size: 17]}];
+                [viewController.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:viewController.xy_prefersNavigationBarTransparent?UIColor.whiteColor:UIColor.blackColor,NSFontAttributeName: [UIFont fontWithName:@"PingFangSC-Semibold" size: 17]}];
             }
         }
     };
